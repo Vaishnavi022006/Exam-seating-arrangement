@@ -1,4 +1,3 @@
-# Exam-seating-arrangement
 # AI-Based Exam Seating Arrangement
 
 A web application that automatically generates exam seating plans. The seating logic is a **constraint satisfaction problem solved in SWI-Prolog with CLP(FD)**, served through a lightweight **Node.js** backend and an interactive **HTML/CSS/JavaScript** front end.
