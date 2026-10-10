@@ -1,4 +1,4 @@
-# AI-Based Exam Seating Arrangement
+# AI Based Exam Seating Arrangement
 
 A web application that automatically generates exam seating plans. The seating logic is a **constraint satisfaction problem solved in SWI-Prolog with CLP(FD)**, served through a lightweight **Node.js** backend and an interactive **HTML/CSS/JavaScript** front end.
 
@@ -53,7 +53,7 @@ Seats are numbered left to right, top to bottom, starting at 1 in each room.
 ## Project Structure
 
 ```
-Exam_seating_arrangement/
+AI-Based-Exam-Seating-Arrangement/
 ├── public/
 │   ├── index.html      # User interface
 │   ├── app.js          # Front-end logic, PIN engine, CSV import, fallback solver
@@ -90,8 +90,8 @@ Exam_seating_arrangement/
 ## Installation
 
 ```bash
-git clone https://github.com/Vaishnavi022006/Exam_seating_arrangement.git
-cd Exam_seating_arrangement
+git clone https://github.com/Vaishnavi022006/AI-Based-Exam-Seating-Arrangement.git
+cd AI-Based-Exam-Seating-Arrangement
 ```
 
 There are no npm packages to install.
