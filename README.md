@@ -62,8 +62,7 @@ AI-Based-Exam-Seating-Arrangement/
 ├── seat.pl             # CLP(FD) seating rules and solver
 ├── prolog_bridge.pl    # Reads JSON from Node, calls the solver, prints JSON
 ├── package.json        # Project metadata and start script
-├── start.bat           # Windows launcher
-└── LICENSE             # MIT license
+└── start.bat           # Windows launcher
 ```
 
 ---
@@ -282,12 +281,6 @@ It asks for rooms, blocked seats and student groups in the terminal and prints t
 ## Contributing
 
 Contributions are welcome. Fork the repo, create a branch, and open a pull request.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
