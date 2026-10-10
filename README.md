@@ -189,8 +189,8 @@ Both templates can be downloaded from the import dialog. You can **replace** the
 ```
 
 - `rooms[].blocked` is a list of blocked seat numbers.
-- `branch` holds the **subject**.
-- If `students` is present it is used. Otherwise the bridge generates students from `groups` (IDs like `S1_1`, `S1_2`, ...).
+- `students[].branch` and `groups[].branch` represent the subject name.
+- If `students` is provided, the bridge uses that list and ignores `groups`. If `students` is omitted, the bridge generates students from `groups`, with IDs like `S1_1`, `S1_2`, and so on.
 
 **Successful response**
 
